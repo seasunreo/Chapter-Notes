@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_chapter_notes_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_chapter_notes_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Finals_Project"
+        tools:targetApi="31">
+
+        <!-- Main Activity: First Page when the App Opens -->
+        <activity
+            android:name=".MainActivity"
+            android:label="Chapter Notes"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Dashboard Activity: After Successful Login or Signup -->
+        <activity
+            android:name=".dashboard_main"
+            android:label="Dashboard"
+            android:exported="true">
+            <!-- No intent-filter for direct redirection from the login/signup -->
+        </activity>
+
+        <!-- Add Review Activity -->
+        <activity
+            android:name=".d_add_review"
+            android:label="Add Review"
+            android:exported="true">
+        </activity>
+
+        <!-- View Review Activity -->
+        <activity
+            android:name=".d_view_review"
+            android:label="View Review"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".d_update_review"
+            android:label="Profile"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".d_delete_review"
+            android:label="Profile"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>

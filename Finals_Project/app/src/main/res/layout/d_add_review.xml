@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/d_add_review_bg"
+    tools:context=".d_add_review">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <!-- Book Title EditText -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/bookTitle"
+        android:background="@drawable/lavender_border"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="16dp"
+        android:hint="Enter Book Title"
+        android:gravity="start|center_vertical"
+        android:textColor="#493628"/>
+
+        <!-- Author EditText -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/author"
+        android:background="@drawable/lavender_border"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="16dp"
+        android:hint="Enter Author"
+        android:gravity="start|center_vertical"
+        android:textColor="#493628"/>
+
+        <!-- Remarks EditText -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/remarks"
+        android:background="@drawable/lavender_border"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="16dp"
+        android:hint="Enter Remarks"
+        android:gravity="start|center_vertical"
+        android:textColor="#493628"/>
+
+        <!-- Update Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Submit"
+            android:id="@+id/updateButton"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#AB886D"
+        app:cornerRadius="20dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="20dp"
+    android:background="@drawable/profile_bg">
+
+    <!-- Profile Header -->
+    <TextView
+        android:id="@+id/profileHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Information"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#493628" />
+
+    <!-- Email Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Email:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#493628" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#493628"
+        android:textColor="#493628" />
+
+    <!-- Password Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Password:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#493628" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#493628"
+        android:textColor="#493628" />
+
+    <!-- Save Profile Button -->
+    <Button
+        android:id="@+id/saveProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Save Profile"
+        android:textSize="18sp"
+        android:backgroundTint="#AB886D"
+        android:textColor="@android:color/white" />
+
+    <!-- Load Profile Button -->
+    <Button
+        android:id="@+id/loadProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Load Profile"
+        android:textSize="18sp"
+        android:backgroundTint="#AB886D"
+        android:textColor="@android:color/white" />
+
+    <!-- Display Saved Email -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#493628" />
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#493628" />
+
+    <!-- Display Saved Password -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#493628" />
+
+    <TextView
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#493628" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Logout"
+        android:textSize="18sp"
+        android:backgroundTint="#AB886D"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
