@@ -1,4 +1,4 @@
-# 📖 Chapter Notes Phone Application
+# 📖 Chapter Notes Mobile Application
 
 ## Overview
 
